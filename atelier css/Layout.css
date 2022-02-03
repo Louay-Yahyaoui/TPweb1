@@ -1,0 +1,78 @@
+body
+{
+    margin-top: 52px;
+    margin-right: 280px;
+    margin-left: 300px ;
+    margin-bottom: 212px;
+    background: url("top_bg1.png") top center no-repeat,
+    url("foot_bg.png") bottom center no-repeat;
+    background-size: 1550px 50px;
+}
+.img1
+{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.img2
+{position: absolute;
+    top: 52px;
+    left:297px;
+}
+ul
+{
+    position: relative;
+    margin: 0 0;
+    padding: 0;
+    text-align: left;
+    display: table;
+    width: 946px;
+    height: 30px;
+}
+ul li
+{
+    display: table-cell;
+    background: maroon;
+    text-align: center;
+}
+ul li a
+{
+    display: block;
+    color: white;
+    font-size:1.5em;
+    text-decoration: none;
+    font-family: "Agency FB", serif;
+}
+a:active
+{
+    background-image: url("rings.png");
+    background-repeat: no-repeat;
+    background-size: 300px 52px;
+}
+.imgr
+{
+    position: relative;
+    float: right;
+    justify-content: space-between;
+}
+#red
+{
+    font-family: serif,sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: #d00c0c;
+}
+#centerbold
+{
+    text-align: center;
+    font-weight:bold;
+}
+#sred
+{
+    font-weight: bold;
+    color: #d00c0c;
+}
+.img3
+{
+    justify-content: space-between;
+}

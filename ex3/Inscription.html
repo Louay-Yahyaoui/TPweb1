@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+</head>
+<body>
+<p>
+    <h1 style="text-align: center">Inscription en ligne</h1>
+    <form action="validee.html" method="post" name ="infoperso" style="text-align: center" >
+        <fieldset><legend>Informations personnelles:</legend><br/></br>
+        <label for="1">Votre nom</label>
+        <input id="1" type="text" placeholder="votre nom?"><br/></br>
+        <label for="2">Votre pr&eacute;nom</label>
+        <input id="2" type="text" placeholder="votre pr&eacute;nom?"><br/></br>
+        <label for="3">Votre age</label>
+        <input id="3" type="number" min="1" placeholder="votre age?"><br/></br>
+        <label for="4">Votre adresse</label>
+        <textarea id="4" rows=7 cols="40" placeholder="votre adresse?"></textarea><br/>
+            <label for="9">Votre adresse mail</label>
+            <input id="9" type="email" placeholder="Votre adresse email??"></br></br>
+            <label for="10">Votre site</label>
+            <input id="10" type="URL" placeholder="Votre site?"></br></br>
+            <label for="11">Date de naissance</label>
+            <input type="date" id="11"></br></br>
+        <label for="5" >Votre mot de passe</label>
+        <input type="password" id="5" required><br/></br>
+        <label for="6" required>Retapez votre mot de passe</label>
+        <input type="password" id="6" required><br/></br>
+            <label for="12">un texte de 4 caract&egrave;res (pouvant contenir les lettres de "INSAT" et des nombres)</label>
+        <input type="text" pattern="[I][N][S][A][T][0-9]{4}" id="12"></br>
+        </fieldset>
+    <fieldset>
+        <legend>Gestion des groupes</legend><br/></br>
+    <label for="rad">Votre groupe:</label>
+        <input id="rad" name="rad" type="radio" value="Groupe1" checked>Groupe 1
+        <input name="rad" type="radio" value="Groupe2">Groupe 2
+        <input name="rad" type="radio" value="Groupe3">Groupe 3<br/></br>
+        <label for="7"></label>Num&eacute;ro de carte d'&eacute;tudiant
+        <input type="text" id="7" size=21 placeholder="Num&eacute;ro de carte d'&eacute;tudiant?" ></br></br>
+        <label for="8">Choisissez les options que vous d&eacute;sirez</label>
+        <select id="8" size="5">
+            <option value="j2ee">J2ee</option>
+            <option value="and">Android</option>
+            <option value="Net">Net</option>
+            <option value="HTML5">HTML5</option>
+            <option value="flex">Flex</option>
+        </select>
+    </fieldset>
+        <input type="submit" value="valider">
+        <input type="reset" value="effacer">
+    </form>
+</p>
+</body>
+</html>
